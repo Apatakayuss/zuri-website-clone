@@ -113,6 +113,7 @@ h5{
 .box-container img{
     margin-top: 60px;
     margin-left: 30px;
+    mix-blend-mode: darken;
 }
 .box-container p{
     font-size: 1rem;
