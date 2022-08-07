@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Averta Standard', sans-serif;
+}
+main{
+    background-color: rgb(255,250,250);
+}
+span{
+    color: rgb(234,78,71);
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    text-align: center;
+    width: 40rem;
+    height: 100vh;
+    padding-top: 30px;
+    padding-bottom: 150px;
+}
+h3{
+    padding-bottom: 5rem;
+    font-weight: light;
+    font-family: 'Averta-Black', sans-serif;
+    color: #514949;
+}
+h1{
+    padding-bottom: 1.5rem;
+    color: #514949;
+    font-family: 'Averta-Black', sans-serif;
+}
+.container #p1{
+    line-height: 20px;
+    padding-bottom: 6.25rem;
+    font-size: .95rem;
+    margin-top: 20px;
+    color: #514949;
+    font-family: 'Averta-Black', sans-serif;
+    padding-top: 5px;
+}
+.buttons{
+    display: flex;
+    font-family: 'Averta-Black', sans-serif;
+}
+button{
+    width: 220px;
+    height: 45px;
+    margin: auto 10px;
+    border: 1px solid rgb(234,78,71);
+    background-color: #fff;
+}
+#new{
+    color: #fff;
+    background-color: rgb(234,78,71);
+}
+#new:hover {
+    background-color: #fff;
+    color: rgb(234,78,71);
+}
+#experience{
+    color: rgb(234,78,71);
+    background-color: #fff;
+}
+#experience:hover {
+    background-color: rgb(234,78,71);
+    color: #fff;
+}
+
+
+
+
+/* phase-2 */
+.phase-2{
+    background-color: #fff;
+}
+.bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h5{
+    color: rgb(234,78,71);
+    margin-top: 150px;
+}
+.phase-2 p{
+    font-size: 1.5rem;
+    margin: 10px auto;
+    color: #514949;
+}
+#separator{
+    margin-top: -5px;
+    margin-bottom: 75px;
+}
+
+/* box container style*/
+
+.box-housing{
+    display: flex;
+    margin: auto 50px;
+}
+
+.box-container{
+    height: 500px;
+    width: 380px;
+    background-color: rgb(255,250,250);
+    margin: auto 15px;
+}
+.box-container img{
+    margin-top: 60px;
+    margin-left: 30px;
+}
+.box-container p{
+    font-size: 1rem;
+    margin-left: 30px;
+    margin-top: 50px;
+    margin-right: 30px;
+    color: rgb(81,73,73);
+}
+.box-container #colored{
+    color: rgb(234,78,71);
+}
+
+/*  INFO SECTION */
+
+.info-section{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 300px;
+    margin-left: 50px;
+    margin-right: 70px;
+}
+.info-section .section1 img{
+    width: 50%;
+    height: 50%;
+    margin-top: -25px;
+}
+.section1, .section2, .section3, .section4{
+    margin: auto 20px;
+    width: 23%;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+.info-section .section2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.info-section .section2 h5{
+    font-size: 1rem;
+    margin-top: -4px;
+    color: rgb(81,73,73);
+}
+.info-section .section2 p{
+    font-size: 1rem;
+}
+
+
+.info-section .section3{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.info-section .section3 h5{
+    font-size: 1rem;
+    margin-top: -4px;
+    color: rgb(81,73,73);
+}
+.info-section .section3 p{
+    font-size: 1rem;
+    color: rgb(81,73,73);
+}
+.info-section .section3 a{
+    text-decoration: none;
+}
+
+
+
+.info-section .section4{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.info-section .section4 h5{
+    font-size: 1rem;
+    margin-top: -4px;
+    color: rgb(81,73,73);
+}
+#foot-img{
+    width: 8%;
+    height: 10%;
+    margin-left: 4px; 
+}
+
+
+/* FOOTER */
+hr{
+    margin: auto 80px;
+    color: rgb(81,73,73);
+}
+footer{
+    text-align:center;
+    color: rgb(81,73,73);
+}
+#footer-text{
+    font-size: .9rem;
+    margin: 30px auto 100px auto;
+    font-weight: bold;
+}
+
+
+/* .info-section{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#zuri-logoo{
+    width: 14%;
+    height: 15%;
+}
+.info-setion .section2 p{
+    font-size: .3rem;
+}
+.section1, .section2, .section3, .section4{
+    margin: auto 50px;
+}
+.info-section .section2 p{
+    color: blue;
+    font-size: 1rem;
+}
+#foot-head{
+    margin-bottom: 10px;
+}
+
+.info-section .section3 p, .info-section .section3 address{
+    color: blue;
+    font-size: 1rem;
+    text-decoration: none;
+}
+.foothead img{
+    width: 10%;
+    height: 10%;
+}
+.foothead{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+#zuri-logoo{
+    width: 14%;
+    height: 15%;
+} */
